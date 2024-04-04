@@ -40,10 +40,6 @@ public class CourrierController {
     public String creerUnCourrier(@RequestBody Courrier courrier){
         courrierService.creerCourrier(courrier);
         return "Courrier crée avec succès";
-        
-
-
-
     }
 
 

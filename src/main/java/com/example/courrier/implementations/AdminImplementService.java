@@ -28,7 +28,7 @@ public class AdminImplementService implements AdminService {
     @Override
     public String supprimerUnAdmin(Integer id_admin) {
         adminRepository.deleteById(String.valueOf(id_admin));
-        return null;
+        return "Admin supprimé avec succès";
     }
 
     @Override
