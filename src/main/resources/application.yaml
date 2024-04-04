@@ -1,0 +1,11 @@
+spring :
+  datasource :
+    url : jdbc:mysql://154.49.142.1:3306/u912410135_courrier
+    #url : jdbc:mysql://localhost:3306/api_bd?useSSL=false
+    username: u912410135_ges_courrier
+    password: "Martial123456789@"
+
+    #JPA Settings
+
+    jpa.hibernate.ddl_auto: create
+    #nossatimite@gmail.com
