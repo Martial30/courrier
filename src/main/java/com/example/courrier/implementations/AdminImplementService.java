@@ -3,9 +3,11 @@ package com.example.courrier.implementations;
 import com.example.courrier.model.Admin;
 import com.example.courrier.repository.AdminRepository;
 import com.example.courrier.service.AdminService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class AdminImplementService implements AdminService {
 
     public AdminImplementService(AdminRepository adminRepository) {

@@ -3,9 +3,11 @@ package com.example.courrier.implementations;
 import com.example.courrier.model.Courrier;
 import com.example.courrier.repository.CourrierRepository;
 import com.example.courrier.service.CourrierService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class CourrierImplementService  implements CourrierService {
 
     CourrierRepository courrierRepository;

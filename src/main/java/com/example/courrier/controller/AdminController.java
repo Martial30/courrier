@@ -1,5 +1,4 @@
 package com.example.courrier.controller;
-
 import com.example.courrier.model.Admin;
 import com.example.courrier.service.AdminService;
 import org.springframework.web.bind.annotation.*;
@@ -10,11 +9,12 @@ import java.util.List;
 @RequestMapping("/afficher_admin")
 public class AdminController {
     AdminService adminService;
+
     public AdminController(AdminService adminService) {
         this.adminService = adminService;
     }
 
-    @GetMapping("id_admin")
+    @GetMapping("/{id_admin}")
     public Admin afficherUnAdmin(@PathVariable("id_admin") Integer id_admin){
         return adminService.afficherUnAdmin(id_admin);
     }

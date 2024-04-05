@@ -1,6 +1,7 @@
 package com.example.courrier.service;
 
 import com.example.courrier.model.Admin;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 

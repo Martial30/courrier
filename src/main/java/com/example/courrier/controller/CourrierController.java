@@ -1,7 +1,7 @@
 package com.example.courrier.controller;
-
 import com.example.courrier.model.Courrier;
 import com.example.courrier.service.CourrierService;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
